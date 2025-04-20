@@ -1,7 +1,16 @@
-a=5
-b=3
-c=1
-print(a,b,c)
-print("you've put it in the wrong order let me fix it")
+a=int(input("enter the number"))
+b=int(input("enter the number"))
+c=int(input("enter the number"))
+print(a,c,b)
 print(b,c,a)
-print("you're welcome!")
+print(b,a,c)
+order=(input)("what order do you what? x for first one,y for second one and z for last one")
+x=(a,c,b)
+y=(b,c,a)
+z=(c,a,b)
+if x:
+    print(a,c,b)
+if y:
+    print(b,c,a)
+if z:
+    (b,c,a)
